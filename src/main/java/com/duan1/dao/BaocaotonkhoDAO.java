@@ -4,6 +4,7 @@
  */
 package com.duan1.dao;
 
+import com.mycompany.baocaotonkho.BaoCaoTonKho;
 import java.util.List;
 
 /**

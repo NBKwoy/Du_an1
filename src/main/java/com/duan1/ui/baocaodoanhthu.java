@@ -25,7 +25,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author BA KHANG
  */
-public class baocaodoanhthu extends javax.swing.JFrame {
+public class BaoCaoDoanhThu extends javax.swing.JFrame {
 
     private JTable table;
     private JTextField txtSearch;
@@ -36,7 +36,7 @@ public class baocaodoanhthu extends javax.swing.JFrame {
     /**
      * Creates new form baocaodoanhthu
      */
-    public baocaodoanhthu() {
+    public BaoCaoDoanhThu() {
 
 
         setTitle("Báo cáo doanh thu");
@@ -176,20 +176,21 @@ public class baocaodoanhthu extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(baocaodoanhthu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BaoCaoDoanhThu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(baocaodoanhthu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BaoCaoDoanhThu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(baocaodoanhthu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BaoCaoDoanhThu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(baocaodoanhthu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BaoCaoDoanhThu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new baocaodoanhthu().setVisible(true);
+                new BaoCaoDoanhThu().setVisible(true);
             }
         });
     }

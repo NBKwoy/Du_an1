@@ -4,6 +4,7 @@
  */
 package com.duan1.dao;
 
+import duan1.Thongtinkhachhang;
 import java.util.List;
 
 /**

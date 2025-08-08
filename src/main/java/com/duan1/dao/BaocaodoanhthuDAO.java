@@ -4,6 +4,7 @@
  */
 package com.duan1.dao;
 
+import com.duan1.ui.BaoCaoDoanhThu;
 import java.util.List;
 
 
